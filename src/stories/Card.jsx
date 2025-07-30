@@ -4,7 +4,7 @@ const Card = ({ title, content, footer }) => (
     <div style={{
         border: '1px solid #ddd',
         borderRadius: '8px',
-        padding: '16px',
+        padding: '46px',
         maxWidth: '300px',
         boxShadow: '0 2px 8px rgba(0,0,0,0.05)',
         background: '#fff'
