@@ -5,6 +5,11 @@ import Card from './Card';
 export default {
   title: 'Components/Card',
   component: Card,
+  parameters: {
+    chromatic: {
+      defaultViewport: [320,768,1024,1440],
+    },
+  },
   
 };
 
