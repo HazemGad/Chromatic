@@ -11,7 +11,6 @@ const config = {
     "@storybook/addon-docs",
     "@storybook/addon-onboarding",
     "@storybook/addon-a11y",
-    "@storybook/addon-viewport",
     "@storybook/addon-vitest"
   ],
   "framework": {

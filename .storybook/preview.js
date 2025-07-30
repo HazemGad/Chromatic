@@ -1,4 +1,3 @@
-import { MINIMAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 /** @type { import('@storybook/react-vite').Preview } */
 const preview = {
