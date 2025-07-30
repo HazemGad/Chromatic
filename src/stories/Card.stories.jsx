@@ -1,10 +1,19 @@
 import React from 'react';
 import Card from './Card';
-
+import { allModes  } from '../../.storybook/modes';
 export default {
-  title: 'Components/Card',
-  component: Card,
+component: Card,
+  title: "ArticleCard",
+  parameters: {
+    chromatic: {
+      modes: {
+        mobile: allModes["small"],
+        desktop: allModes["large"],
+      },
+    },
+  },
 };
+
 
 const Template = (args) => <Card {...args} />;
 
