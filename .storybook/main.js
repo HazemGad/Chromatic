@@ -15,7 +15,8 @@ const config = {
   ],
   "framework": {
     "name": "@storybook/react-vite",
-    "options": {}
+    "options": {},
+     stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
   }
 };
 export default config;

@@ -1,25 +1,18 @@
+// src/stories/Card.stories.jsx
 import React from 'react';
 import Card from './Card';
-import { allModes  } from '../../.storybook/modes';
-export default {
-component: Card,
-  title: "ArticleCard",
-  parameters: {
-    chromatic: {
-      modes: {
-        mobile: allModes["small"],
-        desktop: allModes["large"],
-      },
-    },
-  },
-};
 
+export default {
+  title: 'Components/Card',
+  component: Card,
+  
+};
 
 const Template = (args) => <Card {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  title: 'Hello Card',
+  title: 'Hello Cardddddddddddddddddddddddddddddddddddddddddddddd',
   content: 'This is the card content.',
   footer: 'Footer content here.',
 };
